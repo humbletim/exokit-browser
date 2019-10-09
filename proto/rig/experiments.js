@@ -1,4 +1,4 @@
-import { WorldHelper } from './SpaceHelpers.js';
+import { WorldHelper } from '../skeleton/SpaceHelpers.js';
 
 export { Inversions, BindPoseExtractor, RelativeHelper };
 

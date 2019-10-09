@@ -2,7 +2,7 @@
 // NOTE: these helpers are only meant to be used while bootstrapping initial algorithmic code
 //  (as stable algorithms are found they should be optimized to use raw THREE constructs instead)
 
-import THREE from './ephemeral-three.js';
+import THREE from '../build/ephemeral-three.js';
 
 class WorldHelper {
   constructor(object) {

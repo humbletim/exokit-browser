@@ -1,4 +1,4 @@
-import { clamp } from './armature.utils.js';
+import { clamp } from '../skeleton/armature.utils.js';
 import Component from './ik.component.js';
 
 class RigState extends Component {

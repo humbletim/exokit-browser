@@ -1,6 +1,6 @@
 // SkeletonMetrics.js -- calculates various metrics about a given THREE Skeleton
 
-import THREE from './ephemeral-three.js';
+import THREE from '../build/ephemeral-three.js';
 
 class SkeletonMetrics {
   static get version() { return '0.0.0'; }

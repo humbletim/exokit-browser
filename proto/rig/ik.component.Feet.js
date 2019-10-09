@@ -1,6 +1,6 @@
 var VERSION = '0.0.0';
 
-import { clamp } from './armature.utils.js';
+import { clamp } from '../skeleton/armature.utils.js';
 import Component from './ik.component.js';
 
 class Feet extends Component {

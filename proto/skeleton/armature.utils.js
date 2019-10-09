@@ -2,7 +2,7 @@
 
 const version = '0.0.0a';
 
-import THREE from './ephemeral-three.js';
+import THREE from '../build/ephemeral-three.js';
 
 export {
     version,

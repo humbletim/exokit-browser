@@ -2,7 +2,6 @@
 
 const VERSION = '0.0.0';
 import { AutoIKComponent, Component } from './ik.component.js';
-import { AutoIKChain, walkBoneChain } from './AutoIKChain.js';
 
 import { Feet as OldFeet } from './ik.component.Feet.js';
 import ThreePointIK from './ThreePointIK.js';

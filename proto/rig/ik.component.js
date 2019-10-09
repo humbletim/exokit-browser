@@ -12,7 +12,7 @@ class Component {
 };
 
 // import Component from './ik.component.js';
-import { AutoIKChain, walkBoneChain } from './AutoIKChain.js';
+import { AutoIKChain, walkBoneChain } from '../three-ik/AutoIKChain.js';
 
 class AutoIKComponent extends Component {
   constructor(rig, options) {

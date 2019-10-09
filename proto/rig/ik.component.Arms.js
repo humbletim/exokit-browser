@@ -2,7 +2,7 @@
 
 const VERSION = '0.0.0';
 import { Component, AutoIKComponent } from './ik.component.js';
-import { AutoIKChain, walkBoneChain } from './AutoIKChain.js';
+import { AutoIKChain, walkBoneChain } from '../three-ik/AutoIKChain.js';
 
 const quaternionZ180 = new THREE.Quaternion().setFromUnitVectors(
   new THREE.Vector3(0, 1, 0),

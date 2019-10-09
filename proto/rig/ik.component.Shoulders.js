@@ -1,7 +1,7 @@
 const VERSION = '0.0.0';
 
-import { clamp, quadOut, degrees, quatFromDegrees } from './armature.utils.js';
-import { NamedJointWrappers } from './NamedJointWrappers.js';
+import { clamp, quadOut, degrees, quatFromDegrees } from '../skeleton/armature.utils.js';
+import { NamedJointWrappers } from '../skeleton/NamedJointWrappers.js';
 import Component from './ik.component.js';
 
 const DefaultBias = {

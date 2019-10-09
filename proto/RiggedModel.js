@@ -3,11 +3,11 @@
 const VERSION = '0.0.1a';
 console.info('RiggedModel...', VERSION);
 
-import THREE from './ephemeral-three.js';
-import Rig from './Rig.js';
-import { fixSkeletonZForward } from './modified.AxisUtils.js';
-import { extractSkeleton, quatFromDegrees } from './armature.utils.js';
-import { BindPoseExtractor, RelativeHelper } from './experiments.js';
+import THREE from './build/ephemeral-three.js';
+import Rig from './rig/Rig.js';
+import { fixSkeletonZForward } from './three-ik/modified.AxisUtils.js';
+import { extractSkeleton, quatFromDegrees } from './skeleton/armature.utils.js';
+import { BindPoseExtractor, RelativeHelper } from './rig/experiments.js';
 
 //import { IKHingeConstraint, IKBallConstraint } from './ephemeral-three-ik.js';
 

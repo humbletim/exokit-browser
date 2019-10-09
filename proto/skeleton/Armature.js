@@ -3,7 +3,6 @@
 import { _decoupledSkeletonClone } from './armature.utils.js';
 import remapJointNames from './remapJointNames.js';
 import { NamedJointWrappers } from './NamedJointWrappers.js';
-import { AutoIKChain, walkBoneChain } from './AutoIKChain.js';
 import SkeletonMetrics from './SkeletonMetrics.js';
 
 class Armature {
@@ -36,15 +35,6 @@ class Armature {
     Object.assign(this, new NamedJointWrappers(skeleton, idNames));
   }
 
-  walk(a, b, silent = false) {
-    var bc = walkBoneChain(this.get(a), this.get(b));
-    if (!silent && !bc.valid) {
-        debugger;
-        throw new Error('bad chain: '+[a,b].join('=>'));
-    }
-    return bc;
-  }
-  
   // experimental support for "tearing off" subskeleton chains
   virtualSegment(from, to) {
     var container = {

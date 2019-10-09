@@ -1,4 +1,4 @@
-import { IK, IKChain, IKJoint } from './ephemeral-three-ik.js';
+import { IK, IKChain, IKJoint } from '../build/ephemeral-three-ik.js';
 export { QuaternionIKChain, QuaternionIKJoint };
 
 class QuaternionIKChain extends IKChain {

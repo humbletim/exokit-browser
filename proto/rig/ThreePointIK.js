@@ -1,4 +1,4 @@
-import { SpaceHelper } from './SpaceHelpers.js';
+import { SpaceHelper } from '../skeleton/SpaceHelpers.js';
 import { RelativeHelper } from './experiments.js';
 import Component from './ik.component.js';
 

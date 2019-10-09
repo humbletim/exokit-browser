@@ -2,7 +2,7 @@
 
 const VERSION = '0.0.0';
 import { AutoIKComponent } from './ik.component.js';
-import { AutoIKChain, walkBoneChain } from './AutoIKChain.js';
+import { AutoIKChain, walkBoneChain } from '../three-ik/AutoIKChain.js';
 
 class Head extends AutoIKComponent {
   static get version() { return VERSION; }

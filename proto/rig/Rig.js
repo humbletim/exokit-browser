@@ -2,11 +2,11 @@
 
 var VERSION = '0.0.0a';
 
-import { clamp, getRelativeRotation } from './armature.utils.js';
+import { clamp, getRelativeRotation } from '../skeleton/armature.utils.js';
 
-import THREE from './ephemeral-three.js';
+import THREE from '../build/ephemeral-three.js';
 
-import Armature from './Armature.js';
+import Armature from '../skeleton/Armature.js';
 import Head from './ik.component.Head.js';
 import Hips from './ik.component.Hips.js';
 import { Feet as OldFeet} from './ik.component.Feet.js';
@@ -15,7 +15,7 @@ import Shoulders from './ik.component.Shoulders.js';
 import Arms from './ik.component.Arms.js';
 import RigState from './ik.component.State.js';
 
-import { SpaceHelper } from './SpaceHelpers.js';
+import { SpaceHelper } from '../skeleton/SpaceHelpers.js';
 
 console.table && console.table({
   Rig: VERSION,
